@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Source+Sans+Pro&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&family=Source+Sans+Pro&display=swap');
+
+body{
+	overflow-x: hidden;
+	background-color: #f0f0f0;
+
+}
+
+/*Navbar*/
+.navbar{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+	font-size: 32px;
+}
+
+/*jumbotron*/
+.jumbotron{
+	background-image: url("img/banner7.jpg");
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+}
+
+.jumbotron {
+	color: white;
+	z-index: 100;
+}
+
+.tittle{
+ 	position: absolute;
+  	left: 50%!important;
+  	z-index: 10;
+  	color: #fff;
+  	text-align: center;
+  	top: 40%!important;
+  	transform: translate(-50%, -50%);
+ 	width: fit-content;
+  	padding: 50px;
+  	font-family: Viga;
+}
+
+.jumbotron .display-4{
+  	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0,8);
+	margin-bottom: 30px;
+}
+
+/* Galeri gambar */
+.galeri{
+	margin-top: 50px;
+	margin-bottom: 120px;
+	width: 750px;
+	height: 450px;
+}
+
+.detailGambar{
+	margin-left: 120px;
+	margin-top: 50px;
+	width: 500px;
+	height: 450px;
+	font-family: Source Sans Pro;
+	letter-spacing: 0.7px;
+}
+
+.detailGambar h1{
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.detailGambar p{
+	font-size: 18px;
+}
+
+/* Utility */
+.judul{
+	margin-top: 120px;
+}
+
+.judul h2{
+	text-align: center;
+	font-weight: 350;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.judul p{
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+
+.underlineFooter{
+	text-decoration: none;
+}
+
+.underlineFooter:hover{
+	color: #CDFEAA;
+}
+
+/* wa float */
+.floatWa{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/*Desktop Version*/
+@media (min-width: 992px) {
+	.nav-link:hover::after{
+		content: ''!important;
+		display: block!important;
+		border-bottom: 3px solid #b1f510!important;
+		width: 50%!important;
+		margin: auto!important;
+		padding-bottom: 5px!important;
+		margin-bottom: -8px!important;
+}
+	
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+	
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #b1f510;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+	
+.jumbotron{
+	margin-top: -75px;
+}
+}

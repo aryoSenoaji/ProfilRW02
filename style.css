@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Source+Sans+Pro&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap');
+
+body{
+	background-color: #f0f0f0;
+}
+
+/*Navbar*/
+.navbar{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+	font-size: 32px;
+}
+
+/*jumbotron*/
+.jumbotron{
+	background-image: url("img/banner2.jpg");
+	background-size: cover;
+	height: 800px;
+	text-align: center;
+}
+
+.jumbotron {
+	color: white;
+	z-index: 100;
+}
+
+.tittle{
+ 	position: absolute;
+  	left: 50%!important;
+  	z-index: 10;
+  	color: #fff;
+  	text-align: center;
+  	top: 40%!important;
+  	transform: translate(-50%, -50%);
+ 	width: fit-content;
+  	padding: 50px;
+  	font-family: Viga;
+}
+
+.jumbotron .display-4{
+  	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0,8);
+	margin-bottom: 30px;
+}
+
+
+/* Panel Info */
+.panel-info{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	background-color: white;
+	margin-top: -50px;
+	border-radius: 12px;
+	padding: 30px;
+}
+
+.panel-info img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.panel-info h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.panel-info p{
+	font-size: 14px;
+	color: #757373;
+	margin-top: -5px;
+	font-weight: 200;
+}
+
+/*About*/
+.about{
+	margin-top: 120px;
+	text-align: center;
+}
+
+.picture{
+		border-radius: 12px;
+		margin-top: 50px;
+		height: 450px;
+}
+
+.about h2{
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.about h2 span{
+	font-weight: 500;
+}
+
+.about p ol li{
+	font-size: 18px;
+	color: #757373;
+	font-weight: 200;
+	margin: 25px 0;
+}
+
+.judulKami{
+	margin-bottom: 50px;
+}
+
+.tentangKami{
+	font-family: Montserrat;
+}
+
+/*Poster*/
+#carouselExampleControls{
+	margin-top: 150px;
+}
+
+.carousel-item img{
+	width: 600px;
+	height: 600px;
+}
+
+.slider-area1{
+	height: 500px;
+}
+
+.container_2{
+	margin-top: 130px;
+}
+
+/*Profil Ketua RW*/
+.profil {
+	padding: 20vmin 0vmin;
+  }
+  
+  profil .row .col-md-6 .pray img {
+	opacity: 0.8;
+	width: 80%;
+	border-radius: 0.2em;
+  }
+  
+  .profil .row .col-md-6:last-child {
+	position: relative;
+  }
+  
+  .profil .row .col-md-6 .panel {
+	position: absolute;
+	top: 7vmin;
+	left: -18vmin;
+	background: white;
+	border-radius: 3px;
+	text-align: left;
+	padding: 13vmin 5vmin 20vmin 10vmin;
+	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+	font-family: var(--Rubik);
+	z-index: 1;
+  }
+  
+  .profil .row .col-md-6 .panel h1 {
+	font-weight: bold;
+	padding: 0.4em 0;
+	font-size: 2em;
+  }
+  
+  .profil .row .col-md-6 .panel p {
+	font-size: 0.9em;
+	color: rgba(0, 0, 0, 0.6);
+  }
+
+/* Kegiatan RW 02 */
+.judul_baris{
+	margin-top: 30px;
+	margin-bottom: 80px;
+	color: #252C2C;
+}
+
+.judul_baris p{
+	font-weight: 200;
+	font-size: 45px;
+}
+
+.card:hover{
+	box-shadow: 4px 5px 5px 4px #888888;
+}
+
+.isi_kegiatan h6{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.bag2{
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+
+/* Kependudukan */
+.accordion-item{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.accordion-header{
+	background-color: #ABBE9E;
+}
+
+/* wa float */
+.floatWa{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/*footer*/
+.footer{
+	margin-top: 100px;
+}
+
+.footer p{
+	color: #757373;
+	font-size: 20px;
+}
+
+
+
+
+
+/*Utility*/
+.button{
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+
+.underlineFooter{
+	text-decoration: none;
+}
+
+.underlineFooter:hover{
+	color: #CDFEAA;
+}
+
+
+
+/*Desktop Version*/
+@media (min-width: 992px) {
+	.nav-link:hover::after{
+		content: ''!important;
+		display: block!important;
+		border-bottom: 3px solid #b1f510!important;
+		width: 50%!important;
+		margin: auto!important;
+		padding-bottom: 5px!important;
+		margin-bottom: -8px!important;
+}
+	
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+	
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #b1f510;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+	
+.jumbotron{
+	margin-top: -75px;
+}
+	
+	
+.about{
+	text-align: left;
+}
+	
+.testimonial h5{
+	font-size: 32;
+	}
+}
+
+/*Mobile Ver.2*/
+@media only screen and (max-width: 768px) {
+	.profil .row .col-md-6 .panel {
+		position: initial;
+		width: initial;
+		height: initial;
+	}
+	.pemberitahuan {
+		height: inherit;
+		padding: 10vmin !important;
+	  }
+	.pemberitahuan .row h1 {
+		padding: 6vmin 4vmin;
+	  }
+	.pemberitahuan .platform .col-md-6 {
+		text-align: center !important;
+	  }
+	.pemberitahuan .pop-up i {
+		font-size: 8vmin;
+	  }
+		}
